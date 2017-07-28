@@ -1,0 +1,124 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+.bgfull{
+    width: 100%;
+    float: right;
+    height: 100%;
+    -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+}
+.sidebar{
+    width : 30%;
+	float: right; 
+    height : 100% ;  
+    
+background: -moz-linear-gradient(45deg, rgba(209,230,255,1) 0%, rgba(209,230,255,1) 35%, rgba(0,0,0,1) 99%, rgba(0,0,0,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(209,230,255,1)), color-stop(35%, rgba(209,230,255,1)), color-stop(99%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(45deg, rgba(209,230,255,1) 0%, rgba(209,230,255,1) 35%, rgba(0,0,0,1) 99%, rgba(0,0,0,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(45deg, rgba(209,230,255,1) 0%, rgba(209,230,255,1) 35%, rgba(0,0,0,1) 99%, rgba(0,0,0,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(45deg, rgba(209,230,255,1) 0%, rgba(209,230,255,1) 35%, rgba(0,0,0,1) 99%, rgba(0,0,0,1) 100%); /* ie10+ */
+background: linear-gradient(45deg, rgba(209,230,255,1) 0%, rgba(209,230,255,1) 35%, rgba(0,0,0,1) 99%, rgba(0,0,0,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#D1E6FF',GradientType=1 ); /* ie6-9 */
+}
+#sidebar{
+    width : 30%;
+	float: right; 
+    height : 100% ;  
+    border-left : 3px solid whitesmoke;
+    text-align: center;
+    padding: 0.5cm;
+}
+#header{
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 20%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#info{
+    width: 100%;
+}
+#info1{
+    width: 20%;
+    float: left;
+}
+#info2{
+    padding-top: 0.5cm;
+    width: 4%;
+    float: left;
+}
+.main{
+    margin-left: 70px;
+    margin-right: 70px;
+    height: auto;
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding:0px;
+}
+#footer{
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 10%;
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding:0px;
+}
+#content{
+    background-color: white;
+}
+#head{
+    background-color: green;
+}
+.container {
+  padding: 0.5cm;
+}
+
+#inner {
+  overflow: hidden;
+  width: 100%;
+}
+
+td{
+    padding-top: 0.5cm;
+    padding-left: 0.5cm;
+    margin: 2px;
+    text-align:center;
+    vertical-align: top; 
+    width: 33%;
+    position: relative;
+    float: left;
+}
+#title{
+    color: #501074;
+    
+}
+#box{
+    margin:0px;
+    padding:0px;
+}
+.innerbox{
+    margin:0px;
+    padding:0px;
+}
+table{
+    margin:0px;
+    padding:0px;
+}
+#desc{
+    padding-top: 0.1cm;
+}
+#myInput {
+  width: 40%;
+  float: right;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
